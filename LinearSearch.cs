@@ -15,7 +15,7 @@ namespace Algorithms
             return -1;
         }
 
-        public void doubleSearch(int[] arr, int search_Element)
+        public int doubleSearch(int[] arr, int search_Element)
         {
             int length = arr.Length;
             int left = 0;
@@ -27,24 +27,19 @@ namespace Algorithms
                 if (arr[left] == search_Element)
                 {
                     position = left;
-                    Console.WriteLine("Element found in Array at " + (position + 1) + " Position with "
-                        + (left + 1) + " Attempt");
                     break;
                 }
                 // searching in right side
                 if (arr[right] == search_Element)
                 {
                     position = right;
-                    Console.WriteLine("Element found in Array at " + (position + 1) + " Position with "
-                        + (right + 1) + " Attempt");
                     break;
                 }
                 left++;
                 right--;
-                // if element not found
-                if (position == -1)
-                    Console.WriteLine("Not found in Array with "+ left + " Attempt");
             }
+            
+            return position;
         }
     }
 }

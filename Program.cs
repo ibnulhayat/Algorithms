@@ -11,7 +11,7 @@ namespace Algorithms
                 and call the single way method for search
             **/
             int[] arr = { 2, 3, 4, 10, 40, 20, 34, 50 };
-            int searchElement = 40;
+            int searchElement = 30;
             LinearSearch linearSearch = new LinearSearch();
             // int result = linearSearch.singleSearch(arr, searchElement);
             // if (result != -1)
@@ -21,8 +21,12 @@ namespace Algorithms
 
             /**  call the double way method for search
             **/
-            linearSearch.doubleSearch(arr,searchElement);
-
+            int result = linearSearch.doubleSearch(arr, searchElement);
+            if (result == -1)
+                Console.WriteLine("Not found in Array with " + arr.Length/2 + " Attempt");
+            else
+                Console.WriteLine("Element found in Array at " + (result + 1) + " Position with "
+                    + (result + 1) + " Attempt");
 
 
         }
