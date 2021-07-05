@@ -1,0 +1,13 @@
+H:\Parsonal Project\C#\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.exe
+H:\Parsonal Project\C#\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.deps.json
+H:\Parsonal Project\C#\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.runtimeconfig.json
+H:\Parsonal Project\C#\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.runtimeconfig.dev.json
+H:\Parsonal Project\C#\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.dll
+H:\Parsonal Project\C#\Algorithms\bin\Debug\netcoreapp3.1\Algorithms.pdb
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csprojAssemblyReference.cache
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.AssemblyInfoInputs.cache
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.AssemblyInfo.cs
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.csproj.CoreCompileInputs.cache
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.dll
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.pdb
+H:\Parsonal Project\C#\Algorithms\obj\Debug\netcoreapp3.1\Algorithms.genruntimeconfig.cache
