@@ -11,7 +11,7 @@ namespace Algorithms
                 and call the single way method for search
             **/
             int[] arr = { 2, 3, 4, 10, 20, 34, 40, 50 };
-             int searchElement = 30;
+             int searchElement = 40;
             // LinearSearch linearSearch = new LinearSearch();
             // int result = linearSearch.singleSearch(arr, searchElement);
             // if (result != -1)
@@ -28,8 +28,14 @@ namespace Algorithms
             //     Console.WriteLine("Element found in Array at " + (result + 1) + " Position with "
             //         + (result + 1) + " Attempt");
 
-            BinarySearch bs = new BinarySearch();
-            bs.binarySearch(arr,searchElement);
+            // BinarySearch bs = new BinarySearch();
+            // bs.binarySearch(arr,searchElement);
+            // int result = bs.binarySearchTwo(arr, 0, arr.Length, searchElement);
+            // if(result == -1){
+            //     Console.WriteLine("Element not fount.");
+            // }else{
+            //     Console.WriteLine("Element found at index "+result);
+            // }
 
         }
     }
