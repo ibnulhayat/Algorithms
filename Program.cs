@@ -31,12 +31,18 @@ namespace Algorithms
             // BinarySearch bs = new BinarySearch();
             // bs.binarySearch(arr,searchElement);
             // int result = bs.binarySearchTwo(arr, 0, arr.Length, searchElement);
-            // if(result == -1){
-            //     Console.WriteLine("Element not fount.");
-            // }else{
-            //     Console.WriteLine("Element found at index "+result);
-            // }
+            
 
+            /**
+            Jump search Algroithm
+            **/
+            JumpSearch js = new JumpSearch();
+            int result = js.jumpSearch(arr,searchElement);
+            if(result == -1){
+                Console.WriteLine("Element not fount.");
+            }else{
+                Console.WriteLine("Element found at index "+result);
+            }
         }
     }
 }
